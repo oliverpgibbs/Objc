@@ -1,0 +1,102 @@
+.window-device-frame {
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF80, #FFFFFF00 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.window-device-frame-small {
+    border-radius: 9px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF80, #FFFFFF00 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.close-window-frame {
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF31 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.close-window-frame-small {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF31 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.themes-frame {
+    border-radius: 0px 16px 16px 0px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF33, #FFFFFF00 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.code-block-frame {
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF33, #FFFFFF00 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.left-hero-gif-frame {
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF, #E2E2E2) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.right-hero-gif-frame {
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF, #E2E2E2) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+@media (max-width: 719px) {
+  .latest-project-content-container {
+    flex-direction: column;
+    max-height: none;
+  }
+
+  .latest-project-cover-container {
+    width: auto;
+  }
+
+  .latest-project-details-container {
+    margin-left: 24px;
+  }
+}
