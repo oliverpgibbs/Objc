@@ -1,11 +1,11 @@
-.w-nav-button.w--open {
+.w-nav-button.w--open:not(.menu-button.dark) {
      font-size: 16px;
      line-height: 24px;
      color: #061A28;
      font-family: Akkurat;
 }
 
-.w-nav-button {
+.w-nav-button:not(.menu-button.dark) {
      font-size: 16px;
      line-height: 24px;
      color: #061A28;
