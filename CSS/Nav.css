@@ -64,4 +64,34 @@
          text-underline-offset: 8px;
          text-decoration-color: #8869E0;
     }
+
+    .nav-link.dark.swift-talk.underline-animation::before {
+         background-color: #8869E0;
+    }
+
+    .nav-link.dark.books.underline-animation::before {
+         background-color: #10B2B3;
+    }
+
+    .nav-link.dark.workshops.underline-animation::before {
+         background-color: #A433B6;
+    }
+
+    .nav-link.dark.workshops.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #A433B6;
+    }
+
+    .nav-link.dark.books.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #10B2B3;
+    }
+
+    .nav-link.dark.swift-talk.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #8869E0;
+    }
 }
