@@ -1,0 +1,60 @@
+.fixed-style {
+     font-size: 16px;
+     line-height: 24px;
+     color: #061A28;
+     font-family: Akkurat;
+}
+
+@media screen and (min-width: 800px) {
+    .underline-animation {
+         display: inline-block;
+         position: relative;
+    }
+
+    .underline-animation::before {
+         content: "";
+         position: absolute;
+         bottom: 17px;
+         left: 0;
+         right: 0;
+         margin: 0 auto;
+         width: 100%;
+         opacity: 0;
+         height: 1.5px;
+         transition: all 0.3s ease-out;
+    }
+
+    .underline-animation:hover::before {
+         opacity: 100%;
+    }
+
+    .nav-link.swift-talk.underline-animation::before {
+         background-color: #8869E0;
+    }
+
+    .nav-link.books.underline-animation::before {
+         background-color: #10B2B3;
+    }
+
+    .nav-link.workshops.underline-animation::before {
+         background-color: #A433B6;
+    }
+
+    .nav-link.workshops.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #A433B6;
+    }
+
+    .nav-link.books.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #10B2B3;
+    }
+
+    .nav-link.swift-talk.underline-animation.w--current {
+         text-decoration: underline;
+         text-underline-offset: 8px;
+         text-decoration-color: #8869E0;
+    }
+}
