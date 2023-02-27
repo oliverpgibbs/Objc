@@ -1,4 +1,4 @@
-var menuBtn = document.querySelector('.menu-button w-nav-button');
+var menuBtn = document.querySelector('.menu-button');
 
 menuBtn.addEventListener('click', function() {
   menuBtn.classList.add('fixed-style');
