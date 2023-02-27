@@ -1,4 +1,10 @@
 window.addEventListener('load', function() {
+  var menuBtn = document.querySelector('.menu-button');
+
+  menuBtn.addEventListener('click', function() {
+    menuBtn.textContent = menuBtn.textContent === 'Menu' ? 'Close' : 'Menu';
+  });
+
   var learnDropdownToggle = document.querySelector('.footer-dropdown-toggle.learn');
   var learnOpenImage = document.querySelector('.dropdown-open-image.learn');
   var learnClosedImage = document.querySelector('.dropdown-closed-image.learn');
