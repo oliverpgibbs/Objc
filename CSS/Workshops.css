@@ -1,0 +1,37 @@
+.app-frame {
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF80, #FFFFFF00 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+.close-window-frame {
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF31 40%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+}
+
+@media (max-width: 882px) {
+	.workshop-app-visual-content {
+  	margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    grid-row-gap: 40px;
+  }
+}
+
+@media (max-width: 834px) {
+	.workshop-app-visual-code-block {
+  	font-size: 8px;
+    line-height: 24px;
+  }
+}
