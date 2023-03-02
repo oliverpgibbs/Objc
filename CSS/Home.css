@@ -103,6 +103,6 @@
 
 @media (max-width: 390px) {
   .window-device-frame-container.small {
-    padding-right: 10px;
+    margin-right: 10px;
   }
 }
