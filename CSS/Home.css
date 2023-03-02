@@ -101,7 +101,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
   .window-device-frame-container.small {
     margin-right: 10px;
   }

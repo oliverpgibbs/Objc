@@ -1,11 +1,11 @@
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 	.all-issues-section {
   	flex-direction: column;
     grid-row-gap: 32px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 499px) {
   .issue-image {
   	width: auto;
   }

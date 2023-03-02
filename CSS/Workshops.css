@@ -80,7 +80,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .what-we-cover-books-content {
     flex-direction: column;
     -webkit-flex-direction: column;

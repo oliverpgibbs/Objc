@@ -24,7 +24,7 @@
   color: #061A28;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 799px) {
     .underline-animation {
          display: inline-block;
          position: relative;
