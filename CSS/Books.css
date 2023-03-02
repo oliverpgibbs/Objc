@@ -1,0 +1,13 @@
+.w-slider-dot {
+  width: 6px;
+  height: 6px;
+}
+
+.w-slider-dot.w-active {
+  width: 7px;
+  height: 7px;
+}
+
+.w-slider-nav-invert>div {
+  background-color: #00000040;
+}
