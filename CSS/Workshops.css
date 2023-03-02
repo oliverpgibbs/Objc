@@ -35,3 +35,47 @@
     line-height: 24px;
   }
 }
+
+.workshop-app-visual-slider-toggle {
+  position: absolute;
+  animation: move-right 2s linear infinite;
+}
+
+@keyframes move-right {
+  0%, 10% {
+    right: calc(0% - 9px);
+    animation-timing-function: steps(1, end);
+    animation-timing-function: ease-out;
+  }
+  33%, 50%, 66% {
+    right: calc(50% - 9px);
+    animation-timing-function: steps(1, end);
+    animation-timing-function: ease-out;
+	}
+  90%, 100% {
+    right: calc(0% - 9px);
+    animation-timing-function: ease-out;
+  }
+}
+
+.hello-world {
+	position: absolute;
+  animation: scale-text 2s linear infinite;
+}
+
+@keyframes scale-text {
+	0%, 10% {
+  	transform: scale(175%);
+    animation-timing-function: steps(1, end);
+    animation-timing-function: ease-out;
+	}
+  33%, 50%, 66% {
+  	transform: scale(100%);
+    animation-timing-function: steps(1, end);
+    animation-timing-function: ease-out;
+  }
+  90%, 100% {
+  	transform: scale(175%);
+    animation-timing-function: ease-out;
+  }
+}
