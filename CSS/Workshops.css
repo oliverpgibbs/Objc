@@ -20,7 +20,7 @@
             mask-composite: exclude;
 }
 
-@media (max-width: 882px) {
+@media (max-width: 882px) and (min-width: 768px) {
 	.workshop-app-visual-content {
   	margin-left: 40px;
     margin-right: 40px;
@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 834px) and (min-width: 768px) {
 	.workshop-app-visual-code-block {
   	font-size: 8px;
     line-height: 24px;
