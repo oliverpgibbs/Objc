@@ -4,9 +4,9 @@ window.addEventListener('load', function() {
 
   whatWeCoverDropdownToggle.addEventListener('click', function() {
     if (whatWeCoverDropdownToggle.classList.contains('w--open')) {
-      toggleIcon.textContent = '–'
-    } else {
       toggleIcon.textContent = '+'
+    } else {
+      toggleIcon.textContent = '–'
     }
   });
 });
