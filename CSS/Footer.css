@@ -1,16 +1,16 @@
-@keyframes arrows-in-left {
+@keyframes arrows-in-left-footer {
   from { top: 0px; }
   to { top: -34px; }
 }
-@keyframes arrows-out-left {
+@keyframes arrows-out-left-footer {
   from { top: -34px; }
   to { top: 0px; }
 }
-@keyframes arrows-in-right {
+@keyframes arrows-in-right-footer {
   from { top: -28.5px; }
   to { top: 3.5px; }
 }
-@keyframes arrows-out-right {
+@keyframes arrows-out-right-footer {
   from { top: 3.5px; }
   to { top: -28.5px; }
 }
@@ -21,14 +21,14 @@
 }
 
 .footer-logo:hover .logo-animation-left-container {
-  animation-name: arrows-in-left;
+  animation-name: arrows-in-left-footer;
   animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .footer-logo:not(:hover) .logo-animation-left-container {
-  animation-name: arrows-out-left;
+  animation-name: arrows-out-left-footer;
   animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
@@ -40,14 +40,14 @@
 }
 
 .footer-logo:hover .logo-animation-right-container {
-  animation-name: arrows-in-right;
+  animation-name: arrows-in-right-footer;
   animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .footer-logo:not(:hover) .logo-animation-right-container {
-  animation-name: arrows-out-right;
+  animation-name: arrows-out-right-footer;
   animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
