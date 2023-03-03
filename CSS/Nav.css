@@ -108,22 +108,34 @@
     }
 }
 
+/* arrows-in-left keyframe animation with bounce effect */
 @keyframes arrows-in-left {
   from { top: 0px; }
+  50% { top: -35px; animation-timing-function: ease-out; }
   to { top: -28.5px; }
 }
+
+/* arrows-out-left keyframe animation with bounce effect */
 @keyframes arrows-out-left {
   from { top: -28.5px; }
+  50% { top: -3.5px; animation-timing-function: ease-out; }
   to { top: 0px; }
 }
+
+/* arrows-in-right keyframe animation with bounce effect */
 @keyframes arrows-in-right {
   from { top: -28.5px; }
+  50% { top: -3.5px; animation-timing-function: ease-out; }
   to { top: 1px; }
 }
+
+/* arrows-out-right keyframe animation with bounce effect */
 @keyframes arrows-out-right {
   from { top: 1px; }
+  50% { top: -35px; animation-timing-function: ease-out; }
   to { top: -28.5px; }
 }
+
 
 .nav-logo-link-block .logo-animation-left-container {
   padding-bottom: 0;
