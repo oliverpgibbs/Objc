@@ -1,17 +1,21 @@
 @keyframes arrows-in-left-footer {
   from { top: 0px; }
+  50% { top: -39px; animation-timing-function: ease-in-out; }
   to { top: -34px; }
 }
 @keyframes arrows-out-left-footer {
   from { top: -34px; }
+  50% { top: 5px; animation-timing-function: ease-in-out; }
   to { top: 0px; }
 }
 @keyframes arrows-in-right-footer {
   from { top: -28.5px; }
+  50% { top: 8.5px; animation-timing-function: ease-in-out; }
   to { top: 3.5px; }
 }
 @keyframes arrows-out-right-footer {
   from { top: 3.5px; }
+  50% { top: -33.5px; animation-timing-function: ease-in-out; }
   to { top: -28.5px; }
 }
 
