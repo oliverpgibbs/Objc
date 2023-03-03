@@ -17,3 +17,12 @@
   padding-left: 2px;
   padding-right: 2px;
 }
+
+.p4.purple.chapter-timestamp {
+  text-decoration: none;
+}
+
+.episode-chapter-link:hover .p4.purple.chapter-timestamp {
+  text-decoration: underline;
+  transition: text-decoration 200ms ease-out;
+}
