@@ -10,7 +10,7 @@
 .episode-chapter-link {
   padding-left: 0;
   padding-right: 0;
-  transition: padding-left, padding-right 250ms ease-out;
+  transition: padding-left 250ms ease-out, padding-right 250ms ease-out;
 }
 
 .episode-chapter-link:hover {
