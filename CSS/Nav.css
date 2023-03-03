@@ -111,66 +111,66 @@
 /* arrows-in-left keyframe animation with bounce effect */
 @keyframes arrows-in-left {
   from { top: 0px; }
-  60% { top: -30px; animation-timing-function: ease-in-out; }
+  50% { top: -34px; animation-timing-function: ease-in-out; }
   to { top: -28.5px; }
 }
 
 /* arrows-out-left keyframe animation with bounce effect */
 @keyframes arrows-out-left {
   from { top: -28.5px; }
-  60% { top: -1.5px; animation-timing-function: ease-in-out; }
+  50% { top: -5.5px; animation-timing-function: ease-in-out; }
   to { top: 0px; }
 }
 
 /* arrows-in-right keyframe animation with bounce effect */
 @keyframes arrows-in-right {
   from { top: -28.5px; }
-  60% { top: -2.5px; animation-timing-function: ease-in-out; }
+  50% { top: -6.5px; animation-timing-function: ease-in-out; }
   to { top: 1px; }
 }
 
 /* arrows-out-right keyframe animation with bounce effect */
 @keyframes arrows-out-right {
   from { top: 1px; }
-  60% { top: -30px; animation-timing-function: ease-in-out; }
+  50% { top: -34px; animation-timing-function: ease-in-out; }
   to { top: -28.5px; }
 }
 
 
 .nav-logo-link-block .logo-animation-left-container {
   padding-bottom: 0;
-  transition: padding-bottom 0.3s ease-in-out;
+  transition: padding-bottom 350ms ease-in-out;
 }
 
 .nav-logo-link-block:hover .logo-animation-left-container {
   animation-name: arrows-in-left;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .nav-logo-link-block:not(:hover) .logo-animation-left-container {
   animation-name: arrows-out-left;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
 
 .nav-logo-link-block .logo-animation-right-container {
   padding-top: 0;
-  transition: padding-top 0.3s ease-in-out;
+  transition: padding-top 350ms ease-in-out;
 }
 
 .nav-logo-link-block:hover .logo-animation-right-container {
   animation-name: arrows-in-right;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .nav-logo-link-block:not(:hover) .logo-animation-right-container {
   animation-name: arrows-out-right;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
