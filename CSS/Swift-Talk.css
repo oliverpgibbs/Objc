@@ -20,6 +20,7 @@
 
 .p4.purple.chapter-timestamp {
   border-bottom: 0.5px solid rgba(136, 105, 224, 0);
+  padding-bottom: 2px;
 }
 
 .episode-chapter-link:hover .p4.purple.chapter-timestamp {
