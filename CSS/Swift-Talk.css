@@ -11,7 +11,7 @@
   padding-left: 0;
   padding-right: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  transition: padding-left 200ms ease-out, padding-right 200ms ease-out, border-bottom 200ms ease-out;
+  transition: padding-left 100ms ease-out, padding-right 100ms ease-out, border-bottom 100ms ease-out;
 }
 
 .episode-chapter-link:hover {
@@ -26,5 +26,5 @@
 
 .episode-chapter-link:hover .p4.purple.chapter-timestamp {
   text-decoration: underline rgba(136, 105, 224, 1);
-  transition: text-decoration 250ms ease-out;
+  transition: text-decoration 100ms ease-out;
 }
