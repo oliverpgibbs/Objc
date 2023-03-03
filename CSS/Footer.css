@@ -8,10 +8,10 @@
 }
 @keyframes arrows-in-right {
   from { top: -28.5px; }
-  to { top: 0px; }
+  to { top: 3.5px; }
 }
 @keyframes arrows-out-right {
-  from { top: 0px; }
+  from { top: 3.5px; }
   to { top: -28.5px; }
 }
 
