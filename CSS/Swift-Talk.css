@@ -10,12 +10,14 @@
 .episode-chapter-link {
   padding-left: 0;
   padding-right: 0;
-  transition: padding-left 200ms ease-out, padding-right 200ms ease-out;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: padding-left 200ms ease-out, padding-right 200ms ease-out, border-bottom 200ms ease-out;
 }
 
 .episode-chapter-link:hover {
   padding-left: 2px;
   padding-right: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .p4.purple.chapter-timestamp {
