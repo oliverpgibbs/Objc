@@ -7,12 +7,12 @@
   to { top: 0px; }
 }
 @keyframes arrows-in-right {
-  from { top: -34px; }
-  to { top: 3px; }
+  from { top: -28.5px; }
+  to { top: 0px; }
 }
 @keyframes arrows-out-right {
-  from { top: 3px; }
-  to { top: -34px; }
+  from { top: 0px; }
+  to { top: -28.5px; }
 }
 
 .footer-logo .logo-animation-left-container {
