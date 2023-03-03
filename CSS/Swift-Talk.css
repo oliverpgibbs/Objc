@@ -6,3 +6,14 @@
 .project-container:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
+
+.episode-chapter-link {
+  padding-left: 0;
+  padding-right: 0;
+  transition: padding-left, padding-right 250ms ease-out;
+}
+
+.episode-chapter-link:hover {
+  padding-left: 2px;
+  padding-right: 2px;
+}
