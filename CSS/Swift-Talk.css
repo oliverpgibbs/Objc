@@ -20,9 +20,10 @@
 
 .p4.purple.chapter-timestamp {
   text-decoration: none;
+  transition: color 200ms ease-out;
 }
 
 .episode-chapter-link:hover .p4.purple.chapter-timestamp {
   text-decoration: underline;
-  transition: text-decoration 200ms ease-out;
+  color: #8869e0;
 }
