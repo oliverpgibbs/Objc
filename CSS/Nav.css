@@ -125,38 +125,38 @@
   to { top: -28.5px; }
 }
 
-.nav-logo-link-block, .footer-logo .logo-animation-left-container {
+.nav-logo-link-block .logo-animation-left-container {
   padding-bottom: 0;
   transition: padding-bottom 0.3s ease-in-out;
 }
 
-.nav-logo-link-block:hover, .footer-logo:hover .logo-animation-left-container {
+.nav-logo-link-block:hover .logo-animation-left-container {
   animation-name: arrows-in-left;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
-.nav-logo-link-block:not(:hover), .footer-logo:not(:hover) .logo-animation-left-container {
+.nav-logo-link-block:not(:hover) .logo-animation-left-container {
   animation-name: arrows-out-left;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
 
-.nav-logo-link-block, .footer-logo .logo-animation-right-container {
+.nav-logo-link-block .logo-animation-right-container {
   padding-top: 0;
   transition: padding-top 0.3s ease-in-out;
 }
 
-.nav-logo-link-block:hover, .footer-logo:hover .logo-animation-right-container {
+.nav-logo-link-block:hover .logo-animation-right-container {
   animation-name: arrows-in-right;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
-.nav-logo-link-block:not(:hover), .footer-logo:not(:hover) .logo-animation-right-container {
+.nav-logo-link-block:not(:hover) .logo-animation-right-container {
   animation-name: arrows-out-right;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
