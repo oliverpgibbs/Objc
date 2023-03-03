@@ -1,18 +1,18 @@
 @keyframes arrows-in-left {
   from { top: 0px; }
-  to { top: -28.5px; }
+  to { top: -34px; }
 }
 @keyframes arrows-out-left {
-  from { top: -28.5px; }
+  from { top: -34px; }
   to { top: 0px; }
 }
 @keyframes arrows-in-right {
-  from { top: -28.5px; }
+  from { top: -34px; }
   to { top: 0px; }
 }
 @keyframes arrows-out-right {
   from { top: 0px; }
-  to { top: -28.5px; }
+  to { top: -34px; }
 }
 
 .footer-logo .logo-animation-left-container {
