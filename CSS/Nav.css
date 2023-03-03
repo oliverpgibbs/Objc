@@ -118,7 +118,7 @@
 /* arrows-out-left keyframe animation with bounce effect */
 @keyframes arrows-out-left {
   from { top: -28.5px; }
-  50% { top: -5.5px; animation-timing-function: ease-in-out; }
+  50% { top: 5.5px; animation-timing-function: ease-in-out; }
   to { top: 0px; }
 }
 
