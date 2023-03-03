@@ -17,38 +17,38 @@
 
 .footer-logo .logo-animation-left-container {
   padding-bottom: 0;
-  transition: padding-bottom 0.3s ease-in-out;
+  transition: padding-bottom 350ms ease-in-out;
 }
 
 .footer-logo:hover .logo-animation-left-container {
   animation-name: arrows-in-left;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .footer-logo:not(:hover) .logo-animation-left-container {
   animation-name: arrows-out-left;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
 
 .footer-logo .logo-animation-right-container {
   padding-top: 0;
-  transition: padding-top 0.3s ease-in-out;
+  transition: padding-top 350ms ease-in-out;
 }
 
 .footer-logo:hover .logo-animation-right-container {
   animation-name: arrows-in-right;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .footer-logo:not(:hover) .logo-animation-right-container {
   animation-name: arrows-out-right;
-  animation-duration: 0.3s;
+  animation-duration: 350ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
