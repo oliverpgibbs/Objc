@@ -125,7 +125,7 @@
 /* arrows-in-right keyframe animation with bounce effect */
 @keyframes arrows-in-right {
   from { top: -28.5px; }
-  50% { top: -6.5px; animation-timing-function: ease-in-out; }
+  50% { top: 6.5px; animation-timing-function: ease-in-out; }
   to { top: 1px; }
 }
 
