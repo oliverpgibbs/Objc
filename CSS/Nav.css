@@ -111,28 +111,28 @@
 /* arrows-in-left keyframe animation with bounce effect */
 @keyframes arrows-in-left {
   from { top: 0px; }
-  90% { top: -30px; animation-timing-function: ease-in-out; }
+  75% { top: -30px; animation-timing-function: ease-in-out; }
   to { top: -28.5px; }
 }
 
 /* arrows-out-left keyframe animation with bounce effect */
 @keyframes arrows-out-left {
   from { top: -28.5px; }
-  90% { top: -1.5px; animation-timing-function: ease-in-out; }
+  75% { top: -1.5px; animation-timing-function: ease-in-out; }
   to { top: 0px; }
 }
 
 /* arrows-in-right keyframe animation with bounce effect */
 @keyframes arrows-in-right {
   from { top: -28.5px; }
-  90% { top: -2.5px; animation-timing-function: ease-in-out; }
+  75% { top: -2.5px; animation-timing-function: ease-in-out; }
   to { top: 1px; }
 }
 
 /* arrows-out-right keyframe animation with bounce effect */
 @keyframes arrows-out-right {
   from { top: 1px; }
-  90% { top: -30px; animation-timing-function: ease-in-out; }
+  75% { top: -30px; animation-timing-function: ease-in-out; }
   to { top: -28.5px; }
 }
 
