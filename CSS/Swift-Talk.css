@@ -94,6 +94,7 @@
 
 .p4.episode-name.current {
   color: #FFFFFF;
+  font-weight: normal;
   transition: font-weight 200ms ease-out;
 }
 
