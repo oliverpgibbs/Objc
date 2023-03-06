@@ -86,7 +86,7 @@
   transition: color 200ms ease-out;
 }
 
-.p4-episode-name {
+.p4.episode-name {
   color: rgba(255, 255, 255, 0.5);
   font-weight: normal;
   transition: color 200ms ease-out, font-weight 200ms ease-out;
