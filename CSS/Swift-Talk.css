@@ -45,7 +45,12 @@
   transition: color 200ms ease-out;
 }
 
-.project-title-container:hover .nano-text.medium-purple.small.project-title {
+.project-title-button {
+  color: #8869E0;
+  transform: color 200ms ease-out;
+}
+
+.project-title-button:hover {
   color: #CCBEF4;
 }
 
