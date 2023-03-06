@@ -71,3 +71,28 @@
 .secondary-button-small:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
+
+.episode-play-button {
+  background-color: rgba(255, 255, 255, 0.12);
+  transition: background-color 200ms ease-out;
+}
+
+.episode-play-button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.h6.episode-count {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: normal;
+  transition: color 200ms ease-out, font-weight 200ms ease-out;
+}
+
+.h6.episode-count.current {
+  font-weight: normal;
+  transition: font-weight 200ms ease-out;
+}
+
+.h6.episode-count:hover {
+  color: #FFFFFF;
+  font-weight: bold;
+}
