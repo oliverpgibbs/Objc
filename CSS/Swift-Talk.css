@@ -47,7 +47,7 @@
 
 .project-title-button {
   color: #8869E0;
-  transform: color 200ms ease-out;
+  transition: color 200ms ease-out;
 }
 
 .project-title-button:hover {
