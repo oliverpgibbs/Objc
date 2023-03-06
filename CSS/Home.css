@@ -115,3 +115,12 @@
 .latest-project-content-container:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
+
+.secondary-button-small.view-projects {
+  background-color: rgba(255, 255, 255, 0.12);
+  transition: background-color 200ms ease-out;
+}
+
+.secondary-button-small.view-projects:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
