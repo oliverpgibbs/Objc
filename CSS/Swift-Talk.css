@@ -63,11 +63,11 @@
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.secondary-button-small.view-projects {
+.secondary-button-small {
   background-color: rgba(255, 255, 255, 0.12);
   transition: background-color 200ms ease-out;
 }
 
-.secondary-button-small.view-projects:hover {
+.secondary-button-small:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
