@@ -22,11 +22,11 @@
 
 .p4.purple.chapter-timestamp {
   text-decoration: underline rgba(136, 105, 224, 0);
+  transition: text-decoration 100ms ease-out;
 }
 
 .episode-chapter-link:hover .p4.purple.chapter-timestamp {
   text-decoration: underline rgba(136, 105, 224, 1);
-  transition: text-decoration 100ms ease-out;
 }
 
 .play-video-button {
@@ -47,4 +47,13 @@
 
 .project-title-container:hover .nano-text.medium-purple.small.project-title {
   color: #CCBEF4;
+}
+
+.episode-dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 200ms ease-out;
+}
+
+.episode-dropdown-toggle:hover:not(.w--open) {
+  background-color: rgba(255, 255, 255, 0.08);
 }
