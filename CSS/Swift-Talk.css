@@ -91,7 +91,7 @@
   transition: font-weight 200ms ease-out;
 }
 
-.h6.episode-count:hover {
+.sidebar-episode-container:hover .h6-episode-count {
   color: #FFFFFF;
   font-weight: bold;
 }
