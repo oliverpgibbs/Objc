@@ -28,3 +28,14 @@
   text-decoration: underline rgba(136, 105, 224, 1);
   transition: text-decoration 100ms ease-out;
 }
+
+.play-video-button {
+  background-color: rgba(249, 247, 250, 0.15);
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 12%);
+  transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.play-video-button:hover {
+  background-color: rgba(249, 247, 250, 0.25);
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 30%);
+}
