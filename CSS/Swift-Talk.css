@@ -39,3 +39,12 @@
   background-color: rgba(249, 247, 250, 0.25);
   box-shadow: 0 3px 16px 0 rgb(0 0 0 / 30%);
 }
+
+.nano-text.medium-purple.small.project-title {
+  color: #8869E0;
+}
+
+.project-title-container:hover .nano-text.medium-purple.small.project-title {
+  color: #CCBEF4;
+  transition: color 200ms ease-out;
+}
