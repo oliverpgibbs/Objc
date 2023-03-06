@@ -83,8 +83,7 @@
 
 .h6.episode-count {
   color: rgba(255, 255, 255, 0.75);
-  font-weight: normal;
-  transition: color 200ms ease-out, font-weight 200ms ease-out;
+  transition: color 200ms ease-out;
 }
 
 .h6.episode-count.current {
