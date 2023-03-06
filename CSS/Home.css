@@ -107,12 +107,12 @@
   }
 }
 
-.latest-project-details-container {
+.latest-project-content-container {
   background-color: rgba(255, 255, 255, 0.08);
   transition: background-color 200ms ease-out;
 }
 
-.latest-project-details-container:hover {
+.latest-project-content-container:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
