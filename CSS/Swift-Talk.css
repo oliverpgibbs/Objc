@@ -94,6 +94,7 @@
 
 .p4.episode-name.current {
   color: #FFFFFF;
+  transition: font-weight 200ms ease-out;
 }
 
 .sidebar-episode-container:hover .h6.episode-count,
