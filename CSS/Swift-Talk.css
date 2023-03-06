@@ -96,7 +96,8 @@
   color: #FFFFFF;
 }
 
-.sidebar-episode-container:hover .h6.episode-count .p4.episode-name {
+.sidebar-episode-container:hover .h6.episode-count,
+.sidebar-episode-container:hover .p4.episode-name {
   color: #FFFFFF;
   font-weight: bold;
 }
