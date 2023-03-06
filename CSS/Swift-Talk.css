@@ -86,12 +86,17 @@
   transition: color 200ms ease-out;
 }
 
-.h6.episode-count.current {
+.p4-episode-name {
+  color: rgba(255, 255, 255, 0.5);
   font-weight: normal;
-  transition: font-weight 200ms ease-out;
+  transition: color 200ms ease-out, font-weight 200ms ease-out;
 }
 
-.sidebar-episode-container:hover .h6.episode-count, .h6.episode-count.current {
+.p4.episode-name.current {
+  color: #FFFFFF;
+}
+
+.sidebar-episode-container:hover .h6.episode-count, .p4.episode-name {
   color: #FFFFFF;
   font-weight: bold;
 }
