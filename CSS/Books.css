@@ -32,11 +32,11 @@
   color: #000000;
 }
 
-.buy-collection-button::before {
+.buy-collection-button.large::before {
   content: attr(data-text);
 }
 
-.buy-collection-button:hover::before {
+.buy-collection-button.large:hover::before {
   content: "See buying options";
 }
 
