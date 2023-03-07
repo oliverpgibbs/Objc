@@ -115,23 +115,3 @@
 .latest-project-content-container:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-
-.secondary-button-small {
-  background-color: rgba(255, 255, 255, 0.12);
-  transition: background-color 200ms ease-out;
-}
-
-.secondary-button-small:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.play-video-button {
-  background-color: rgba(249, 247, 250, 0.15);
-  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 12%);
-  transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
-}
-
-.play-video-button:hover {
-  background-color: rgba(249, 247, 250, 0.25);
-  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 30%);
-}

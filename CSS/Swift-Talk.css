@@ -29,17 +29,6 @@
   text-decoration: underline rgba(136, 105, 224, 1);
 }
 
-.play-video-button {
-  background-color: rgba(249, 247, 250, 0.15);
-  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 12%);
-  transition: background-color 100ms ease-out, box-shadow 100ms ease-out;
-}
-
-.play-video-button:hover {
-  background-color: rgba(249, 247, 250, 0.25);
-  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 30%);
-}
-
 .nano-text.medium-purple.small.project-title {
   color: #8869E0;
   transition: color 200ms ease-out;
@@ -61,24 +50,6 @@
 
 .episode-dropdown-toggle:hover:not(.w--open) {
   background-color: rgba(255, 255, 255, 0.08);
-}
-
-.secondary-button-small {
-  background-color: rgba(255, 255, 255, 0.12);
-  transition: background-color 200ms ease-out;
-}
-
-.secondary-button-small:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.episode-play-button {
-  background-color: rgba(255, 255, 255, 0.12);
-  transition: background-color 200ms ease-out;
-}
-
-.episode-play-button:hover {
-  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .h6.episode-count {
