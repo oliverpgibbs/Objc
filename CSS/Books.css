@@ -42,9 +42,18 @@
 
 .book-cover.books {
   transform: translateY(0);
-  transition: transform 200ms ease-out;
+  transition: transform 100ms ease-out;
 }
 
-.book-cover.books:hover {
+.book-container:hover .book-cover.books {
   transform: translateY(-10px);
+}
+
+.book-container {
+  background-color: #FAFAFA;
+  transition: background-color 100ms ease-out;
+}
+
+.book-container:hover {
+  background-color: #F3F3F3;
 }
