@@ -115,3 +115,14 @@
 .latest-project-content-container:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
+
+.see-all-books-button {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  transform: translateY(0);
+  transition: box-shadow 100ms ease-out, transform 100ms ease-out;
+}
+
+.see-all-books-button:hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
