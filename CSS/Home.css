@@ -126,3 +126,15 @@
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.25);
   transform: translateY(-1px);
 }
+
+
+.browse-all-posts-button {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  transform: translateY(0);
+  transition: box-shadow 100ms ease-out, transform 100ms ease-out;
+}
+
+.browse-all-posts-button:hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
