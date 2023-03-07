@@ -53,5 +53,5 @@
 
 .primary-button:hover {
   box-shadow: 0 4px 16px 0 rgb(0 0 0 / 12%);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
