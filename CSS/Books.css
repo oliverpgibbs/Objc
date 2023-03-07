@@ -14,7 +14,7 @@
 
 .bundle-container {
   background-color: #FAFAFA;
-  transition: background-color 200ms ease-out;
+  transition: background-color 100ms ease-out;
 }
 
 .bundle-container:hover {
@@ -24,7 +24,7 @@
 .body.large.book-name {
   transform: translateY(0);
   color: #333333;
-  transition: transform 200ms ease-out, color 200ms ease-out;
+  transition: transform 100ms ease-out, color 100ms ease-out;
 }
 
 .body.large.book-name:hover {
@@ -42,7 +42,7 @@
 
 .book-cover.books {
   transform: translateY(0);
-  transition: transform 100ms ease-out;
+  transition: transform 50ms ease-out;
 }
 
 .book-container:hover .book-cover.books {
@@ -51,7 +51,7 @@
 
 .book-container {
   background-color: #FAFAFA;
-  transition: background-color 100ms ease-out;
+  transition: background-color 50ms ease-out;
 }
 
 .book-container:hover {
