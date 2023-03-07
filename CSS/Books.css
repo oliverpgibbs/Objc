@@ -12,12 +12,12 @@
   background-color: #00000040;
 }
 
-.books-collection-container {
+.bundle-container {
   background-color: #FAFAFA;
   transition: background-color 200ms ease-out;
 }
 
-.books-collection-container:hover {
+.bundle-container:hover {
   background-color: #F3F3F3;
 }
 
