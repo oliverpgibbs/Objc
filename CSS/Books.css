@@ -45,7 +45,7 @@
   transition: transform 50ms ease-out;
 }
 
-.book-container:hover, .book-container-small:hover .book-cover.books {
+.book-container:hover .book-cover.books, .book-container-small:hover .book-cover.books {
   transform: translateY(-10px);
 }
 
