@@ -31,3 +31,11 @@
   transform: translateY(2px);
   color: #000000;
 }
+
+.buy-collection-button::before {
+  content: attr(data-text);
+}
+
+.buy-collection-button:hover::before {
+  content: "See buying options";
+}
