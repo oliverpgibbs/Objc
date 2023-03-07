@@ -43,3 +43,16 @@
 .book-container:hover, .book-container-small:hover {
   background-color: #F3F3F3;
 }
+
+.other-bundles-button,
+.or-see-bundles-button {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  transform: translateY(0);
+  transition: box-shadow 100ms ease-out, transform 100ms ease-out;
+}
+
+.other-bundles-button:hover,
+.or-see-bundles-button:hover {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
