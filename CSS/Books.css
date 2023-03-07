@@ -39,3 +39,12 @@
 .buy-collection-button:hover::before {
   content: "See buying options";
 }
+
+.book-cover.books {
+  transform: translateY(0);
+  transition: transform 200ms ease-out;
+}
+
+.book-cover.books:hover {
+  transform: translateY(-10px);
+}
