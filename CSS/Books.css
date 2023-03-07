@@ -23,9 +23,11 @@
 
 .body.large.book-name {
   transform: translateY(0);
-  transition: transform 200ms ease-out;
+  color: #333333;
+  transition: transform 200ms ease-out, color 200ms ease-out;
 }
 
 .body.large.book-name:hover {
   transform: translateY(2px);
+  color: #000000;
 }
