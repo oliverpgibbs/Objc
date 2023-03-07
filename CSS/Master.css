@@ -43,9 +43,11 @@
 
 .primary-button {
   box-shadow: 0 0 0 rgb(0 0 0 / 0%);
-  transition: box-shadow 100ms ease-out;
+  transform: translateY(0);
+  transition: box-shadow 100ms ease-out, transform 100ms ease-out;
 }
 
 .primary-button:hover {
   box-shadow: 0 4px 16px 0 rgb(0 0 0 / 12%);
+  transform: translateY(-2px);
 }
