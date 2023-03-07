@@ -1,3 +1,7 @@
+* {
+ -webkit-font-smoothing: antialiased;
+}
+
 .w-slider-dot {
   width: 6px;
   height: 6px;
