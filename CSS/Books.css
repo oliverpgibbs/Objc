@@ -45,15 +45,15 @@
   transition: transform 50ms ease-out;
 }
 
-.book-container:hover .book-cover.books {
+.book-container:hover, .book-container-small:hover .book-cover.books {
   transform: translateY(-10px);
 }
 
-.book-container {
+.book-container, .book-container-small {
   background-color: #FAFAFA;
   transition: background-color 50ms ease-out;
 }
 
-.book-container:hover {
+.book-container:hover, .book-container-small:hover {
   background-color: #F3F3F3;
 }
