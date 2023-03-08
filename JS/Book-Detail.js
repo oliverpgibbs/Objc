@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
-  const radioButtons = document.querySelectorAll('.book-radio');
-  const buyButton = document.querySelector('.buy-book-button');
+  var radioButtons = document.querySelectorAll('.book-radio');
+  var buyButton = document.querySelector('.buy-book-button');
 
   radioButtons.forEach(radioButton => {
     radioButton.addEventListener('change', event => {
