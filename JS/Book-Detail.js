@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
   var radioButtons = document.querySelectorAll('.book-radio');
-  var buyButton = document.querySelector('.buy-book-button');
+  var buyButton = document.querySelector('.buy-book-button.submit');
 
   console.log('Radio buttons found:', radioButtons.length);
   console.log('Buy button found:', buyButton);
