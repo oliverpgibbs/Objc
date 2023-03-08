@@ -9,12 +9,16 @@ window.addEventListener('load', function() {
   }
 
   radioButtons.forEach(radioButton => {
-    radioButton.addEventListener('click', function() {
+    radioButton.addEventListener('change', event => {
+      if (event.target.checked) {
         buyButton.style.backgroundColor = '#000000';
         buyButton.style.color = '#FFFFFF';
         buyButton.textContent = 'Buy through Gumroad';
-
-        console.log('LOGGED');
+      } else {
+        buyButton.style.backgroundColor = '#D3D6D6';
+        buyButton.style.color = '#666666';
+        buyButton.textContent = 'Make a selection';
+      }
     });
   });
 });
