@@ -58,3 +58,8 @@
   background-color: #333;
   color: #fff;
 }
+
+.book-radio-label:checked + .buy-book-button {
+  background-color: #000000;
+  content: "Buy through Gumroad";
+}
