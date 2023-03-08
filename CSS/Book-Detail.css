@@ -1,0 +1,59 @@
+.book-buying-radio-options {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 16px;
+  padding-bottom: 16px;
+}
+
+.book-radio-label {
+  margin: 0;
+}
+
+.book-radio-field {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(4, 18, 27, 0.08);
+}
+
+.book-radio-field-left {
+  display: flex;
+  flex-grow: 1;
+  grid-column-gap: 12px;
+  align-items: flex-start;
+}
+
+.book-buying-option-details {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 4px;
+}
+
+.book-radio-field-right {
+	display: flex;
+  flex-grow 0;
+}
+
+.book-radio {
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+}
+
+.book-format-text {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.license-label {
+  display: contents;
+  margin-bottom: 0;
+}
+
+.license-input[type="radio"] {
+  display: none;
+  margin-bottom: 0;
+}
+
+.license-input:checked + .license-button {
+  background-color: #333;
+  color: #fff;
+}
