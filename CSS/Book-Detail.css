@@ -59,16 +59,3 @@
   background-color: #333;
   color: #fff;
 }
-
-.buy-book-button::after {
-  content: "Make a selection";
-}
-
-.book-radio:checked ~ .buy-book-button::after {
-  content: "Buy through Gumroad";
-}
-
-.book-radio:checked ~ .buy-book-button {
-  background-color: #000000;
-  color: #FFFFFF;
-}
