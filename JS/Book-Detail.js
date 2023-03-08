@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', function() {
   const radioButtons = document.querySelectorAll('.book-radio');
   const buyButton = document.querySelector('.buy-book-button');
 
