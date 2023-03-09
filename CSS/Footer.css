@@ -56,3 +56,12 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
 }
+
+.footer-link {
+  transition: all 100ms ease-out;
+}
+
+.footer-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
