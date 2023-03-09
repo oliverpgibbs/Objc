@@ -24,7 +24,7 @@
   color: #061A28;
 }
 
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 768px) {
     .underline-animation {
          display: inline-block;
          position: relative;
@@ -61,20 +61,23 @@
 
     .nav-link.workshops.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #A433B6;
+         text-decoration-thickness: 1.5px;
     }
 
     .nav-link.books.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #10B2B3;
+         text-decoration-thickness: 1.5px;
     }
 
     .nav-link.swift-talk.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #0091D9;
+         text-decoration-thickness: 1.5px;
     }
 
     .nav-link.dark.swift-talk.underline-animation::before {
@@ -91,20 +94,23 @@
 
     .nav-link.dark.workshops.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #A433B6;
+         text-decoration-thickness: 1.5px;
     }
 
     .nav-link.dark.books.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #10B2B3;
+         text-decoration-thickness: 1.5px;
     }
 
     .nav-link.dark.swift-talk.underline-animation.w--current {
          text-decoration: underline;
-         text-underline-offset: 8px;
+         text-underline-offset: 8.5px;
          text-decoration-color: #0091D9;
+         text-decoration-thickness: 1.5px;
     }
 }
 
