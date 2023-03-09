@@ -9,6 +9,14 @@
             mask-composite: exclude;
 }
 
+@media screen and (max-width: 991px) {
+  .app-frame {
+    left: 32px;
+    right: 32px;
+    height: 282px;
+  }
+}
+
 .close-window-frame {
     border-radius: 12px;
     border: 1px solid transparent;
