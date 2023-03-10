@@ -9,15 +9,4 @@ window.addEventListener('load', function() {
       toggleIcon.textContent = '–'
     }
   });
-
-  var workshopsFAQDropdownToggle = document.querySelector('.workshops-faq-dropdown-toggle');
-  var faqToggleIcon = document.querySelector('.h5.mobile.toggle-icon');
-
-  workshopsFAQDropdownToggle.addEventListener('click', function() {
-    if (workshopsFAQDropdownToggle.classList.contains('w--open')) {
-      faqToggleIcon.textContent = '-'
-    } else {
-      faqToggleIcon.textContent = '+'
-    }
-  });
 });
