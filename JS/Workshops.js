@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
         toggleIcon.textContent = '–'
       }
     });
-  }
+  });
 
   var faqDropdownToggles = document.querySelectorAll('.workshops-faq-dropdown-toggle');
   var faqToggleIcon = document.querySelector('.h5.mobile.toggle-icon.faq');
@@ -23,5 +23,5 @@ window.addEventListener('load', function() {
         faqToggleIcon.textContent = '–'
       }
     });
-  }
+  });
 });
