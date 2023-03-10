@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
 
   footerDropdownToggles.forEach(footerDropdownToggle => {
     footerDropdownToggle.addEventListener('click', function() {
-      var toggleIcon = footerDropdownToggle.closest('.what-we-cover-dropdown').querySelector('.h5.mobile.toggle-icon.footer');
+      var toggleIcon = footerDropdownToggle.closest('.footer-dropdown').querySelector('.h5.mobile.toggle-icon.footer');
 
       if (footerDropdownToggle !== activeFooterDropdownToggle) {
         // Only change the text content of other toggle icons if a new dropdown toggle is clicked
