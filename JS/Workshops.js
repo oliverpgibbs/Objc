@@ -11,13 +11,13 @@ window.addEventListener('load', function() {
   });
 
   var workshopsFAQDropdownToggle = document.querySelector('.workshops-faq-dropdown-toggle');
-  var toggleIcon = document.querySelector('.h5.mobile.toggle-icon');
+  var faqToggleIcon = document.querySelector('.h5.mobile.toggle-icon');
 
   workshopsFAQDropdownToggle.addEventListener('click', function() {
     if (workshopsFAQDropdownToggle.classList.contains('w--open')) {
-      toggleIcon.textContent = '-'
+      faqToggleIcon.textContent = '-'
     } else {
-      toggleIcon.textContent = '+'
+      faqToggleIcon.textContent = '+'
     }
   });
 });
