@@ -15,9 +15,9 @@ window.addEventListener('load', function() {
 
   workshopsFAQDropdownToggle.addEventListener('click', function() {
     if (workshopsFAQDropdownToggle.classList.contains('w--open')) {
-      toggleIcon.textContent = '+'
+      toggleIcon.textContent = '-'
     } else {
-      toggleIcon.textContent = '–'
+      toggleIcon.textContent = '+'
     }
   });
 });
