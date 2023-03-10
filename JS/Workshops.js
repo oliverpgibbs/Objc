@@ -16,7 +16,7 @@ window.addEventListener('load', function() {
 
   faqDropdownToggles.forEach(faqDropdownToggle => {
     faqDropdownToggle.addEventListener('click', function() {
-      var faqToggleIcon = faqDropdownToggle.closest('.workshops-faq-dropdown').querySelector('.h5.mobile.toggle-icon.faq');
+      var faqToggleIcon = faqDropdownToggle.closest('.workshops-faq-dropdown-toggle').querySelector('.h5.mobile.toggle-icon.faq');
 
       if (faqDropdownToggle.classList.contains('w--open')) {
         faqToggleIcon.textContent = '+';
