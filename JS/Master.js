@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
       if (footerDropdownToggle !== activeFooterDropdownToggle) {
         // Only change the text content of other toggle icons if a new dropdown toggle is clicked
         if (activeFooterDropdownToggle) {
-          var otherToggleIcons = activeWhatWeCoverDropdownToggle.closest('.footer-dropdown').querySelectorAll('.h5.mobile.toggle-icon.footer');
+          var otherToggleIcons = activeFooterDropdownToggle.closest('.footer-dropdown').querySelectorAll('.h5.mobile.toggle-icon.footer');
           otherToggleIcons.forEach(icon => {
             icon.textContent = '+';
           });
