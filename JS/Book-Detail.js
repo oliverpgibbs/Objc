@@ -4,7 +4,6 @@ window.addEventListener('load', function() {
 
   radioButtons.forEach(radioButton => {
     radioButton.addEventListener('change', event => {
-
       if (event.target.checked) {
         buyButton.style.transition = 'all 200ms ease-out';
         buyButton.style.backgroundColor = '#000000';
