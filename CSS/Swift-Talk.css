@@ -79,6 +79,6 @@
   transform: rotate(0);
 }
 
-.episode-dropdown-toggle.w--open {
+.episode-dropdown-toggle.w--open .dropdown-chevron {
   transform: rotate(180deg);
 }
