@@ -65,3 +65,8 @@
   color: #000000;
   text-decoration: underline;
 }
+
+.footer-link.dark:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
