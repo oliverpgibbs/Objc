@@ -74,3 +74,11 @@
   color: #FFFFFF;
   font-weight: bold;
 }
+
+.dropdown-chevron {
+  transform: rotate(0);
+}
+
+.episode-dropdown-toggle.w--open {
+  transform: rotate(180deg);
+}
