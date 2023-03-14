@@ -8,12 +8,14 @@
 }
 
 .episode-chapter-link {
+  color: #FFFFFF;
   font-weight: normal;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 100ms ease-out;
 }
 
 .episode-chapter-link:hover {
+  color: rgba(255, 255, 255, 0.75);
   font-weight: bold;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
@@ -26,7 +28,7 @@
 
 .episode-chapter-link:hover .p4.purple.chapter-timestamp {
   color: #FFFFFF;
-  text-decoration: underline rgba(136, 105, 224, 1);
+  text-decoration: underline #FFFFFF;
 }
 
 .nano-text.medium-purple.small.project-title {
