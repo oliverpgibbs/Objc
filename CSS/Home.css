@@ -65,7 +65,7 @@
 }
 
 .left-hero-gif-frame,
-.mobile-left-gif {
+.mobile-gif-container {
     border-radius: 16px;
     border: 1px solid transparent;
     background: linear-gradient(to bottom, #FFFFFF, #E2E2E2) border-box;
@@ -76,8 +76,7 @@
             mask-composite: exclude;
 }
 
-.right-hero-gif-frame,
-.mobile-right-gif {
+.right-hero-gif-frame {
     border-radius: 16px;
     border: 1px solid transparent;
     background: linear-gradient(to bottom, #FFFFFF, #E2E2E2) border-box;
