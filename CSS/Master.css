@@ -2,12 +2,6 @@
  -webkit-font-smoothing: antialiased;
 }
 
-@media (max-width: 480px) {
-    * {
-      overflow-x: hidden;
-    }
-}
-
 .w-slider-dot {
   width: 6px;
   height: 6px;
