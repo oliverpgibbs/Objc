@@ -19,54 +19,56 @@
   to { top: -28.5px; }
 }
 
-.footer-logo .logo-animation-left-container {
-  padding-bottom: 0;
-  transition: padding-bottom 350ms ease-in-out;
-}
+@media (min-width: 767px) {
+  .footer-logo .logo-animation-left-container {
+    padding-bottom: 0;
+    transition: padding-bottom 350ms ease-in-out;
+  }
 
-.footer-logo:hover .logo-animation-left-container {
-  animation-name: arrows-in-left-footer;
-  animation-duration: 350ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
+  .footer-logo:hover .logo-animation-left-container {
+    animation-name: arrows-in-left-footer;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
 
-.footer-logo:not(:hover) .logo-animation-left-container {
-  animation-name: arrows-out-left-footer;
-  animation-duration: 350ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: backwards;
-}
+  .footer-logo:not(:hover) .logo-animation-left-container {
+    animation-name: arrows-out-left-footer;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+  }
 
-.footer-logo .logo-animation-right-container {
-  padding-top: 0;
-  transition: padding-top 350ms ease-in-out;
-}
+  .footer-logo .logo-animation-right-container {
+    padding-top: 0;
+    transition: padding-top 350ms ease-in-out;
+  }
 
-.footer-logo:hover .logo-animation-right-container {
-  animation-name: arrows-in-right-footer;
-  animation-duration: 350ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
+  .footer-logo:hover .logo-animation-right-container {
+    animation-name: arrows-in-right-footer;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
 
-.footer-logo:not(:hover) .logo-animation-right-container {
-  animation-name: arrows-out-right-footer;
-  animation-duration: 350ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: backwards;
-}
+  .footer-logo:not(:hover) .logo-animation-right-container {
+    animation-name: arrows-out-right-footer;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+  }
 
-.footer-link {
-  transition: all 150ms ease-out;
-}
+  .footer-link {
+    transition: all 150ms ease-out;
+  }
 
-.footer-link:hover {
-  color: #000000;
-  text-decoration: underline;
-}
+  .footer-link:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
 
-.footer-link.dark:hover {
-  color: #FFFFFF;
-  text-decoration: underline;
+  .footer-link.dark:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
 }
