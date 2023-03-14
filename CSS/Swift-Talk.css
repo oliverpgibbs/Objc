@@ -18,13 +18,13 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.p4.purple.chapter-timestamp {
+.chapter-timestamp {
   color: #8869e0;
   text-decoration: underline rgba(136, 105, 224, 0);
   transition: all 100ms ease-out;
 }
 
-.episode-chapter-link:hover .p4.purple.chapter-timestamp {
+.episode-chapter-link:hover .chapter-timestamp {
   color: #FFFFFF;
   text-decoration: underline #FFFFFF;
 }
@@ -61,20 +61,20 @@
   transition: color 100ms ease-out;
 }
 
-.p4.episode-name {
+.episode-name {
   color: rgba(255, 255, 255, 0.5);
   font-weight: normal;
   transition: all 100ms ease-out;
 }
 
-.p4.episode-name.current {
+.episode-name.current {
   color: #FFFFFF;
   font-weight: normal;
   transition: font-weight 100ms ease-out;
 }
 
 .sidebar-episode-container:hover .h6.episode-count,
-.sidebar-episode-container:hover .p4.episode-name {
+.sidebar-episode-container:hover .episode-name {
   color: #FFFFFF;
   font-weight: bold;
 }
