@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+document.addEventListener("DOMContentLoaded", () => {
   var activeFooterDropdownToggle = null;
 
   var footerDropdownToggles = document.querySelectorAll('.footer-dropdown-toggle');
