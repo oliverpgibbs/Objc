@@ -29,6 +29,11 @@
   text-decoration: underline #FFFFFF;
 }
 
+.chapter-name {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
 .episode-chapter-link:hover .chapter-name {
   color: #FFFFFF;
 }
