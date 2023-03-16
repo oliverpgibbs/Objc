@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+document.addEventListener("DOMContentLoaded", () => {
   var projectsBtn = document.querySelector('.swift-talk-filter-button.projects');
   var episodesBtn = document.querySelector('.swift-talk-filter-button.episodes');
   var projectsSection = document.querySelector('.swift-talk-projects-section');
