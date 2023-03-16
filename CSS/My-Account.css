@@ -2,3 +2,7 @@
   color: #FFFFFF;
   font-weight: bold;
 }
+
+.team-member-sign-up-link {
+  overflow-wrap: anywhere;
+}
