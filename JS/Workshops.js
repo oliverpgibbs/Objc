@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+document.addEventListener("DOMContentLoaded", () => {
   var activeWhatWeCoverDropdownToggle = null;
   var activeFaqDropdownToggle = null;
 
